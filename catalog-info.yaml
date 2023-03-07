@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: payment-service
+  description: Service for handling payments and fund confirmation
+spec:
+  type: service
+  lifecycle: production
+  owner: payments-team
+  consumesApis:
+    - funds-confirmation-api
+  providesApis:
+    - payment-initiation-api
