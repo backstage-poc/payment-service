@@ -7,7 +7,8 @@ spec:
   type: service
   lifecycle: production
   owner: payments-team
+  system: Payments
   consumesApis:
-    - funds-confirmation-api
+    - funds_confirmation_api
   providesApis:
-    - payment-initiation-api
+    - payment_initiation_api
