@@ -12,3 +12,5 @@ spec:
     - funds_confirmation_api
   providesApis:
     - payment_initiation_api
+  dependsOn:
+    - accounts_service
