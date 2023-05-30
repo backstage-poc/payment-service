@@ -1,0 +1,7 @@
+site_name: 'Payment Service'
+docs_dir: .
+nav:
+  - Home: README.md
+plugins:
+  - same-dir
+  - techdocs-core
