@@ -4,6 +4,8 @@ metadata:
   name: payment-service
   description: Service for handling payments and fund confirmation
   appID: app-2
+  tags: 
+    - java
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
