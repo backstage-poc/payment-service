@@ -8,6 +8,7 @@ metadata:
     - java
   annotations:
     backstage.io/techdocs-ref: dir:.
+    backstage.io/spectral-ruleset-url: https://raw.githubusercontent.com/backstage-poc/account-info-api/main/.spectral.yaml
 spec:
   type: service
   lifecycle: production
